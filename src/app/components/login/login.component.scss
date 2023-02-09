@@ -1,0 +1,28 @@
+mat-form-field,
+button {
+  width: 100%;
+}
+
+.homepage_foodBackground {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+mat-card {
+  z-index: 1;
+  top: 315px;
+  position: relative;
+  background-color: #f2ebe9;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+}
+
+mat-card-header {
+  padding: 0px !important;
+  margin-left: -16px;
+  font-family: "Mochiy Pop One", sans-serif;
+}
